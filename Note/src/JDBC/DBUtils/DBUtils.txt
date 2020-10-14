@@ -1,0 +1,16 @@
+DBUtils 可以帮助开发者完成数据的封装（结果集到 Java 对象的映射）
+
+DbUtils类，它就是一个工具类。（注意b是小写b）
+
+1、导⼊ jar 包
+
+2、ResultHandler 接⼝是⽤来处理结果集，可以将查询到的结果集转换成 Java 对象，提供了 4 种实现类。
+            * BeanHandler 将结果集映射成 Java 对象 Student
+            * BeanListHandler 将结果集映射成 List 集合 List
+            * MapHandler 将结果集映射成 Map 对象
+            * MapListHandler 将结果集映射成 MapList 结合
+
+3、QueryRunner类：提供了对sql语句操作的API（增、删、改、查）
+
+4、DbUtils类（注意b是小写b）：定义了关闭资源与事务处理的方法，有一个close法，可以释放资源。
+

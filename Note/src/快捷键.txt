@@ -1,0 +1,30 @@
+显示类中所有方法
+ctrl + F12
+
+实现接口中方法
+ctrl+i
+
+实现构造方法
+1、快捷键是Alt+Insert键  或者 （右键单击选择到 Generate）
+2、选择 Constructor 这一个
+3、然后这里会显示类中的字段，然后可以选择指定的字段（例如通过按住Shift键选择多个字段）
+
+实现get set方法
+1、快捷键是Alt+Insert键  或者 （右键单击选择到 Generate）
+2、选择getter and setter 这一个
+3、然后这里会显示类中的字段，然后可以选择指定的字段（例如通过按住Shift键选择多个字段）
+
+实现Surround With
+1、快捷键ctrl+alt+t
+2、然后可以选择if、if/else、while、do/while、try/catch、try/finally等等一些代码片段。
+
+打开【Generate】：Alt + Insert
+
+点击【接口】跳转到其【实现类】：ctrl + alt + B
+
+生成【返回值对象】快捷键：ctrl + alt + v
+
+每行分别注释：ctrl+/
+
+
+
